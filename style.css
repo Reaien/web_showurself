@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(36, 35, 37);
+}
+
+h1, h2, h3, h4, h5, h6, p, button,span{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.height-main{
+    height: 42.7rem;
+    margin-top: 7rem;
+}
+
+@media (max-width:1366px) {
+    .height-main{
+        height: 30rem;
+    }
+}
+
+.main-img{
+    margin-top: 5rem;
+}
+
+.singer{
+    margin-left: 8rem;
+}
+
+
+.height-info{
+    height: 20rem;
+}
+
+.icon-row{
+    font-size: 80px;
+}
+
+.bg-app{
+    background-image: url(/img/banner.png);
+    min-height: 25rem;
+    
+}
+
+.row-height-app{
+    min-height: 25rem;
+}
+
+.color-text{
+    color: #ec6635;
+}
