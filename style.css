@@ -17,18 +17,9 @@ h1, h2, h3, h4, h5, h6, p, button,span{
     }
 }
 
-.main-img{
-    margin-top: 5rem;
-}
-
-.singer{
-    margin-left: 8rem;
-}
 
 
-.height-info{
-    height: 20rem;
-}
+
 
 .icon-row{
     font-size: 80px;
@@ -36,7 +27,7 @@ h1, h2, h3, h4, h5, h6, p, button,span{
 
 .bg-app{
     background-image: url(/img/banner.png);
-    min-height: 25rem;
+
     
 }
 

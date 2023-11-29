@@ -18,15 +18,14 @@
     <div class="container-fluid">
 
         <nav class="navbar navbar-expand-lg bg-body-transparent ">
-            <div class="container-fluid ">
+            <div>
               <a class="navbar-brand text-white fs-1 fw-bold" href="#">Show URself</a>
               <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav ">
-                  <a class="nav-link text-white fs-2 pe-5 me-5 fw-bold" href="#">About</a>
-                  <a class="nav-link text-white fs-2 pe-5 me-5 fw-bold" href="#">Get App</a>
+                  <a class="nav-link text-white fs-2 pe-5 me-5 fw-bold" target="_blank" href="https://dashboard.ionicframework.com/app/c32599d0/build/builds/9068290">About</a>
                 </div>
               </div>
             </div>
@@ -38,8 +37,8 @@
                     <img class="img-fluid text-center" src="img/logo-mascota.png" alt="logo_show">
                     <p class="fs-3 text-center text-white">Listo para mostrarte al resto?</p>
                 </div>
-                <div class="col-md-7 ">
-                    <img class="w-75 singer" src="img/singer1.png" alt="logo_show">
+                <div class="col-sm-7 ">
+                    <img class="w-75 singer img-fluid" src="img/singer1.png" alt="logo_show">
                 </div>
             </div>
         </section>
@@ -50,18 +49,16 @@
                     <i class="bi bi-cloud icon-row text-center"></i>
                     <p class="text-center fs-4">Login API</p>
                     <p class="text-center fs-4">Persistencia</p>
-                    <p class="text-center fs-4">Hola</p>
                 </div>
                 <div class="col-md-4 mt-3">
-                    <i class="bi bi-shield-check icon-row text-center"></i>
-                    <p class="text-center fs-4">RouteGuard</p>
-                    <p class="text-center fs-4">NotFound</p>
+                    <i class="bi bi-envelope-paper-heart icon-row text-center"></i>
+                    <p class="text-center fs-4">Envío de correos</p>
                 </div>
                 <div class="col-md-4 mt-3">
-                    <i class="bi bi-box-seam icon-row text-center"></i>
+                    <i class="bi bi-qr-code-scan icon-row text-center"></i>
                     <p class="text-center fs-4">Plugin Nativo</p>
                     <p class="text-center fs-4">Componentes y Usabilidad</p>
-                    <p class="text-center fs-4">Hola</p>
+                    <p class="text-center fs-4">Lector y generador QR</p>
                 </div>
             </div>
         </section>
@@ -74,10 +71,15 @@
                         <div class="col-md-6 text-center">
                             <p class="fs-1  mt-5 text-white text-center">Personaliza con capacitor <span class="color-text">camera</span></p>
                             <p class="fs-1  mt-5 text-white text-center">Vive una experiencia de respaldo <span class="color-text">Firebase</span></p>
-                            <img class="img-fluid w-25 mt-1"  src="img/appQR.png" alt="qr-app">
+                            <div  id="elementoEscritorio" style="display: none;">
+                                <img class="img-fluid w-25 mt-1"  src="img/appQR.png" alt="qr-app">
+                            </div>
+                            <div id="elementoMovil" style="display: none;">
+                                <a class="btn btn-warning" href="/ShowURself.apk" role="button">Descarga la App</a>
+                            </div>
                         </div>
-                        <div class="col-md-6 text-center">
-                            <img src="img/phone.png" alt="app">
+                        <div class="col-md-6 text-center ">
+                            <img class="img-fluid" src="img/phone.png" alt="app">
                         </div>
                     </div>
                 </div>
@@ -99,7 +101,7 @@
 
 
 
-
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
